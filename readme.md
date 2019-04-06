@@ -6,6 +6,8 @@ api_test.sql
 
 3. Chạy lệnh 
 
+composer update
+
 php artisan serve 
 
 4. Sử dụng Postman để kiểm tra API
@@ -17,6 +19,17 @@ https://www.getpostman.com/downloads/
 URL:
 
 http://127.0.0.1:8000/oauth/token
+
+- Cấu hình Headers
+
+<pre>
+<code>
+Accept	=> application/json
+<br />
+Content-Type	=> application/json
+
+</code>
+</pre>
 
 
 form-data:
