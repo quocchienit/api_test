@@ -22,13 +22,13 @@ http://127.0.0.1:8000/oauth/token
 form-data:
 
 grant_type   => password
-
+<br />
 client_id	=> 2
-
+<br />
 client_secret => 8cSHo0UKIhUo7Nsvha66SthGnaDLZyANCBUbSUNR
-
+<br />
 username	=> hmurphy@example.com
-
+<br />
 password	=> password
 
 
@@ -40,9 +40,9 @@ Sau khi thực hiện xong thì sẽ lấy được thông tin access_token
 - Cấu hình Headers
 
 Accept	=> application/json
-
+<br />
 Content-Type	=> application/json
-
+<br />
 Authorization 	=> Bearer + access_token
 
 
