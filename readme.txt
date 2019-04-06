@@ -21,6 +21,8 @@ http://127.0.0.1:8000/oauth/token
 
 form-data:
 
+<pre>
+<code>
 grant_type   => password
 <br />
 client_id	=> 2
@@ -30,7 +32,8 @@ client_secret => 8cSHo0UKIhUo7Nsvha66SthGnaDLZyANCBUbSUNR
 username	=> hmurphy@example.com
 <br />
 password	=> password
-
+</code>
+</pre>
 
 Sau khi thực hiện xong thì sẽ lấy được thông tin access_token
 
@@ -38,13 +41,15 @@ Sau khi thực hiện xong thì sẽ lấy được thông tin access_token
 6. Sử dụng access_token để lấy thông tin
 
 - Cấu hình Headers
-
+<pre>
+<code>
 Accept	=> application/json
 <br />
 Content-Type	=> application/json
 <br />
 Authorization 	=> Bearer + access_token
-
+</code>
+</pre>
 
 - Vì chỉ là demo nên không có các phân quyền riêng cho user để GET,POST,PUT,DELETE
 - Tất cả user đều có thể GET,POST,PUT,DELETE
